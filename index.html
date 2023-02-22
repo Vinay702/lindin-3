@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Poppins:wght@400;500;700&family=Proza+Libre:ital,wght@1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&family=Signika+Negative:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="h-[200vh]">
+    <div class="outer-container bg-[#F3F2EF]">
+      <div
+        class="nav-container flex justify-between md:justify-start py-3 px-1 md:px-1 md:py-3 md:overflow-hidden h-[60px] bg-[#FFFFFF] shadow-sm sticky top-0"
+      >
+        <div class="navv-1 md:flex md:px-24px md:pl-[114px] md:pr-[150px]">
+          <div class="logo-nav px-[5px]">
+            <img src="./img/logoblue.svg" class="w-[35px] h-[35px]" alt="" />
+          </div>
+          <div
+            class="hidden search-bar md:flex md:bg-[#EEF3F8] md:rounded-md md:h-[34px] md:w-[280px]"
+          >
+            <img
+              src="img/searchNav.svg"
+              class="h-[30px] w-[30px] p-1 m-1"
+              alt=""
+            />
+            <input
+              type="text"
+              class="md:h-[34px] md:rounded-md md:bg-[#EEF3F8]"
+              placeholder="Search"
+            />
+          </div>
+        </div>
+
+        <div class="search md:hidden">
+          <img src="./img/searchNav.svg" class="" alt="" />
+        </div>
+
+        <div class="mynet-nav md:w-[80px]">
+          <img src="img/home.svg" class="" alt="" />
+          <p class="hidden md:text-xs md:text-center md:inline">Home</p>
+        </div>
+        <div class="mynet-nav md:w-[80px]">
+          <img src="img/myNetwork.svg" class="md:pl-[17px]" alt="" />
+          <p class="hidden md:text-xs md:object-none md:text-center md:inline">
+            My Network
+          </p>
+        </div>
+        <div class="jobs-nav md:w-[80px]">
+          <img src="img/jobs.svg" class="md:pl-[17px]" alt="" />
+          <p class="hidden md:text-xs md:text-center md:inline md:pl-[15px]">
+            Jobs
+          </p>
+        </div>
+        <div class="mess-nav md:w-[80px]">
+          <img src="img/messaging.svg" class="md:pl-[15px]" alt="" />
+          <p class="hidden md:inline md:text-center md:text-sm">Messaging</p>
+        </div>
+        <div class="noti-nav md:w-[80px]">
+          <img src="img/notification.svg" class="md:pl-[16px]" alt="" />
+          <p class="hidden md:inline md:text-center md:text-sm">Notification</p>
+        </div>
+        <div class="three-nav md:hidden">
+          <img src="img/threedot.svg" class="h-[24px] w-[24px]" alt="" />
+        </div>
+        <div class="hidden md:inline noti-nav md:w-[80px] md:pl-[15px]">
+          <img src="img/me.png" class="w-[24px] h-[24px] rounded-full" alt="" />
+          <p class="hidden md:inline md:text-center md:text-sm">Me</p>
+        </div>
+
+        <div class="last flex md:pl-[40px]">
+          <div class="noti-nav hidden md:inline">
+            <img src="img/work.svg" class="" alt="" />
+            <p class="md:text-sm">Work</p>
+          </div>
+          <div class="try flex flex-col items-center md:pl-[20px]">
+            <a
+              href="#"
+              class="hidden md:inline underline text-[#915907] text-sm"
+              >Try premium for free</a
+            >
+          </div>
+        </div>
+      </div>
+      <!---Main                                     ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+      <div class="main-1 md:hidden mt-2.5 relative flex-col h-[190px]">
+        <div class="div-1 bg-[#A0B4B7] h-[53px] w-[full]"></div>
+        <div class="div-2 bg-[#FFFFFF]">
+          <img
+            src="./img/vinay.png"
+            class="w-[70px] h-[70px] items-center rounded-full border-2 border-[#FFFFFF] block absolute top-5 left-40"
+            alt=""
+          />
+          <p class="pt-14 pl-40">Vinay B H</p>
+          <p
+            class="cursor-pointer hover:underline text-xs text-opacity-10 font-light py-2 pl-[98px]"
+          >
+            Student at SSMRV Degree College
+          </p>
+        </div>
+      </div>
+      <div class="main-2">
+        <p class="text-center">Show More</p>
+      </div>
+    </div>
+  </body>
+</html>
